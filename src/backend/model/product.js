@@ -55,7 +55,7 @@ export default class Product {
   }
 
   toString() {
-    return `Product: ` +
+    return 'Product: ' +
       `id=${this.#id}, ` +
       `name=${this.#name}, ` +
       `category=${this.#category}, ` +
